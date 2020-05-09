@@ -1,7 +1,7 @@
-var animal = ["ostrich","cat","parrot","octopus","eel","shark","rabbit","lizard","mushroom","pizza"];
+var animal = ["ostrich","cat","parrot","octopus","eel","shark","rabbit","lizard","mushroom","pizza","robot","ballerina","raccoon","spider","jellyfish","dinosaur","frog","rat","martini","astronaut"];
 var place = ["Mars","Ohio","the desert","Italy","Antarctica","Austin"];
-var year = ["1924","2050","1712","4000"];
-var activity = ["dancing","running","singing","fighting","warrior","presidential","stoic","nomad","drunk"];
+var year = ["1924","2150","1500","4000","700 BC","1980","1960","1865"];
+var activity = ["dancing","running","singing","fighting","vicious","presidential","stoic","nomad","drunk","jovial","mutant","lovesick","classy","complicated","smart","romantic","frightened","tired","overwhelmed","wild"];
 
 // console.log("random", randomAnimal);
 
@@ -19,7 +19,7 @@ function create() {
 	// var randomPlace = place[Math.floor(Math.random() * place.length)];
 	// document.getElementById("place").innerHTML = randomPlace;
 
-	var randomYear = year[Math.floor(Math.random() * year.length)];
-	document.getElementById("year").innerHTML = randomYear;
+	// var randomYear = year[Math.floor(Math.random() * year.length)];
+	// document.getElementById("year").innerHTML = randomYear;
 
 };
