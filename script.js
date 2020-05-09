@@ -23,3 +23,6 @@ function create() {
 	// document.getElementById("year").innerHTML = randomYear;
 
 };
+
+console.log("things:", animal);
+console.log("activities:", activity);
