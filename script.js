@@ -1,7 +1,7 @@
 var animal = ["ostrich","cat","parrot","octopus","eel","shark","rabbit","lizard","mushroom","pizza","robot","ballerina","raccoon","spider","jellyfish","dinosaur","frog","rat","martini","astronaut"];
 var place = ["Mars","Ohio","the desert","Italy","Antarctica","Austin"];
 var year = ["1924","2150","1500","4000","700 BC","1980","1960","1865"];
-var activity = ["dancing","running","singing","fighting","vicious","presidential","stoic","nomad","drunk","jovial","mutant","lovesick","classy","complicated","smart","romantic","frightened","tired","overwhelmed","wild"];
+var activity = ["dancing","running","singing","fighting","vicious","presidential","stoic","nomad","drunk","jovial","mutant","lovesick","classy","complicated","smart","romantic","frightened","tired","stressed","wild","neurotic","glamorous"];
 
 // console.log("random", randomAnimal);
 
