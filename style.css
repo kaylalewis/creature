@@ -1,0 +1,25 @@
+body{
+	margin: 20%;
+	font-family: "Tahoma";
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 48px;
+}
+
+button {
+  background-color: #3342FF;
+  border: none;
+  color: white;
+  padding: 20px 72px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #FF33D1;
+}
