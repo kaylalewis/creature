@@ -30,5 +30,6 @@ button:hover {
 }
 
 h3:first-letter {
-    text-transform: uppercase;
+    text-transform: capitalize;
+    display: inline-block;
 }
