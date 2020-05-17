@@ -28,3 +28,7 @@ button {
 button:hover {
   background-color: #FF33D1;
 }
+
+h3:first-letter {
+    text-transform: uppercase;
+}
