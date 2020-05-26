@@ -12,12 +12,23 @@ function create() {
 	var randomActivity = activity[Math.floor(Math.random() * activity.length)];
 	document.getElementById("activity").innerHTML = randomActivity;
 
-	var randomAnimal = animal[Math.floor(Math.random() * animal.length)];
-	document.getElementById("animal1").innerHTML = randomAnimal;
+	// var randomAnimal = animal[Math.floor(Math.random() * animal.length)];
+	// document.getElementById("animal1").innerHTML = randomAnimal;
 
-	var randomAnimal2 = animal[Math.floor(Math.random() * animal.length)];
-	document.getElementById("animal2").innerHTML = randomAnimal2;
+	// var randomAnimal2 = animal[Math.floor(Math.random() * animal.length)];
+	// document.getElementById("animal2").innerHTML = randomAnimal2;
 
+	for(let i = animal.length - 1 ; i > 0; i--){
+		const j = Math.floor(Math.random() * i)
+		const temp = animal[i]
+		animal[i] = animal[j]
+		animal[j] = temp
+	}
+	//console.log(animal);
+
+	document.getElementById("animal1").innerHTML = animal[0];
+	document.getElementById("animal2").innerHTML = animal[1];
+	
 	// var randomPlace = place[Math.floor(Math.random() * place.length)];
 	// document.getElementById("place").innerHTML = randomPlace;
 
@@ -36,5 +47,5 @@ function create() {
 
 //         };
 
-console.log("things:", animal);
-console.log("activities:", activity);
+// console.log("things:", animal);
+// console.log("activities:", activity);

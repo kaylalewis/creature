@@ -29,15 +29,10 @@ button:hover {
   background-color: #FF33D1;
 }
 
-#gallery{
-  margin-top: 50px;
-}
-
-#gallery a{
-  color: #3342FF
-}
 
 /*h3:first-letter {
+=======
+h3:first-letter {
+>>>>>>> a8485dd40e5a4703854bd73de903e0be644d626f
     text-transform: capitalize;
-    display: inline-block;
-}*/
+}
