@@ -29,6 +29,14 @@ button:hover {
   background-color: #FF33D1;
 }
 
+#gallery{
+  margin-top: 50px;
+}
+
+#gallery a{
+  color: #3342FF
+}
+
 /*h3:first-letter {
     text-transform: capitalize;
     display: inline-block;
